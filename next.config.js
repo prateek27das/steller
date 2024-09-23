@@ -5,12 +5,13 @@ const nextConfig = {
         ignoreBuildErrors: true, 
     },
     async headers() {
-        return[
+        return [
             {
                 source: '/:path*',
                 headers: [
                     {
-                        key: 'referrer-policy', value: 'no-referrer'
+                        key: 'Referrer-Policy', // Correct header key format (capitalization)
+                        value: 'no-referrer'
                     }
                 ]
             }
