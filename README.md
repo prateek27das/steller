@@ -4,19 +4,6 @@ A full-stack issue tracker designed to streamline the management of project task
 
 ![Screenshot](path/to/screenshot.png)  <!-- Replace with your actual screenshot path -->
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [API Endpoints](#api-endpoints)
-- [Authentication](#authentication)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
 ## Features
 
 - **Task Management**: 
