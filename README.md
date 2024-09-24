@@ -2,8 +2,25 @@
 
 A full-stack issue tracker designed to streamline the management of project tasks and issues, enhancing team productivity and workflow. This application provides a robust platform for teams to collaborate effectively, track progress, and ensure timely completion of tasks.
 
+## Screenshots
 
-![Screenshot](https://drive.google.com/uc?id=1zapWpSmJeGY1NezfKG-Gd6IdF9FEoteO)<!-- Replace with your actual screenshot path -->
+| ![Main Dashboard](https://drive.google.com/uc?id=1zapWpSmJeGY1NezfKG-Gd6IdF9FEoteO) | ![User Login](https://drive.google.com/uc?id=10hg9EYV38MTnGOgZcfyhjAJtOxVRCwzv) |
+| --- | --- |
+|  | |
+
+| ![Task Creation](https://drive.google.com/uc?id=18Y-vi3XDnzA_vHnGFUzobwu17Hfvwm-R) | ![Task Details](https://drive.google.com/uc?id=1CSMSvU6P4hozDdIZl4iFYrefObKRhctz) |
+| --- | --- |
+| | |
+
+| ![User Profile](https://drive.google.com/uc?id=1LIM4RWaunfBVGnU9lRe_V9pxhaILS5qZ) | ![Notifications](https://drive.google.com/uc?id=1MbWCg7O95JYQF1s-UQYvXV2NUGCk8t2O) |
+| --- | --- |
+| | |
+
+| ![Mobile View](https://drive.google.com/uc?id=1XfIL8DmytKknkma-kR4CuXcktzDBGdqV) | ![Additional Features](https://drive.google.com/uc?id=1wuPDdJKIr19usIUHVat__-dyrHXISSo2) |
+| --- | --- |
+|  |  |
+
+
 
 ## Features
 
@@ -27,9 +44,6 @@ A full-stack issue tracker designed to streamline the management of project task
 - **Data Consistency and Integrity**: 
   - Utilized Prisma for seamless database management.
   - Implemented Zod for schema validation, ensuring data integrity throughout the application.
-
-- **Real-Time Notifications**: 
-  - Instant notifications for task assignments, updates, and comments, keeping team members informed.
 
 ## Technologies Used
 
