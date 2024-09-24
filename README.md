@@ -2,7 +2,8 @@
 
 A full-stack issue tracker designed to streamline the management of project tasks and issues, enhancing team productivity and workflow. This application provides a robust platform for teams to collaborate effectively, track progress, and ensure timely completion of tasks.
 
-![Screenshot](path/to/screenshot.png)  <!-- Replace with your actual screenshot path -->
+
+![Screenshot](https://drive.google.com/uc?id=1zapWpSmJeGY1NezfKG-Gd6IdF9FEoteO)<!-- Replace with your actual screenshot path -->
 
 ## Features
 
