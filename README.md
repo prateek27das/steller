@@ -1,34 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Issue Tracker
+
+A full-stack issue tracker designed to streamline the management of project tasks and issues, enhancing team productivity and workflow. This application provides a robust platform for teams to collaborate effectively, track progress, and ensure timely completion of tasks.
+
+## Screenshots
+
+| ![Main Dashboard](https://drive.google.com/uc?id=1zapWpSmJeGY1NezfKG-Gd6IdF9FEoteO) | ![User Login](https://drive.google.com/uc?id=10hg9EYV38MTnGOgZcfyhjAJtOxVRCwzv) |
+| --- | --- |
+|  | |
+
+| ![Task Creation](https://drive.google.com/uc?id=18Y-vi3XDnzA_vHnGFUzobwu17Hfvwm-R) | ![Task Details](https://drive.google.com/uc?id=1CSMSvU6P4hozDdIZl4iFYrefObKRhctz) |
+| --- | --- |
+| | |
+
+| ![User Profile](https://drive.google.com/uc?id=1LIM4RWaunfBVGnU9lRe_V9pxhaILS5qZ) | ![Notifications](https://drive.google.com/uc?id=1MbWCg7O95JYQF1s-UQYvXV2NUGCk8t2O) |
+| --- | --- |
+| | |
+
+| ![Mobile View](https://drive.google.com/uc?id=1XfIL8DmytKknkma-kR4CuXcktzDBGdqV) | ![Additional Features](https://drive.google.com/uc?id=1wuPDdJKIr19usIUHVat__-dyrHXISSo2) |
+| --- | --- |
+|  |  |
+
+
+
+## Features
+
+- **Task Management**: 
+  - Create, update, and delete tasks efficiently.
+  - Assign tasks to team members and set deadlines.
+  - Comment on tasks for better collaboration.
+
+- **User Authentication**: 
+  - Secure login using NextAuth with Google Provider.
+  - Role-based access control to ensure data security.
+
+- **Responsive User Interface**: 
+  - Built with Radix UI and React Hook Form for an intuitive user experience.
+  - Optimized for both desktop and mobile devices.
+
+- **Performance Optimization**: 
+  - Integrated Lazy Loading and Caching to improve application performance and reduce load times.
+  - Efficient state management with React Query and React Cache.
+
+- **Data Consistency and Integrity**: 
+  - Utilized Prisma for seamless database management.
+  - Implemented Zod for schema validation, ensuring data integrity throughout the application.
+
+## Technologies Used
+
+- **Frontend**: 
+  - TypeScript
+  - Next.js
+  - Radix UI
+  - React Hook Form
+
+- **Backend**: 
+  - MySQL
+  - Prisma
+
+- **State Management**: 
+  - React Query
+  - React Cache
+
+- **Authentication**: 
+  - NextAuth (Google Provider)
+
+- **Development Tools**: 
+  - Visual Studio Code
+  - Git
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy of the project up and running, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (version 14 or later)
+- npm (Node Package Manager)
+- MySQL server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation Steps
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/issue-tracker.git
